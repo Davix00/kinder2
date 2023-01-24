@@ -1,0 +1,165 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&family=Nunito:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    
+}
+
+body {
+    background-color: white;
+
+}
+.header {
+    background-color: #FA8072;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    margin-top: 10px;
+    border-radius: 80px;
+}
+
+.header .logo img{
+    height:70px;
+    width:auto;
+    margin-top:10px;
+    transition: all 0.3s;
+    border-radius:20px;
+}
+
+.header .logo img:hover{
+    transform:scale(1.2);
+}
+
+.header .nav-links{
+    list-style:none;
+}
+
+.header .nav-links li{
+    display:inline-block;
+    padding:0 20px;
+}
+
+.header .nav-links li:hover{
+   transform:scale(1.2);
+
+}
+.header .nav-links a{
+    font-size:900;
+    color:whitesmoke;
+    text-decoration:none;
+}
+    .header .nav-links li a:hover{
+        font-weight:bolder;
+        color:white;
+    }
+    .buscar {
+        position: relative;
+        padding: 5px;
+      }
+      
+      .buscar input {
+        width: 0;
+        height: 40px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: rgb(79, 78, 78);
+        outline: none;
+        border: 1px solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+      }
+      
+      .btnn {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background: #ca2a40;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      
+      .buscar:hover input {
+        width: 240px;
+      }
+      
+      .buscar input:focus {
+        width: 240px;
+      }
+
+    .header .btn button {
+        font-weight: 700;
+        color: #ca2a40;
+        padding: 9px 25px;
+        background-color: aliceblue;
+        border:none;
+        border-radius: 30px;
+        font-weight: bolder;
+        cursor:pointer;
+        transition:all 0.3s ease 0s;
+    }
+
+    .header .btn button:hover{
+        font-weight:bolder;
+        transform:scale(1.1);
+        ;
+     }
+
+.information .image {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.information .titulo {
+    text-align: right;
+    font-size:30px;
+    margin-top: -250px;
+    margin-left: 700px;
+    margin-right: 200px;
+}
+ .information .texto-contenido{
+     text-align: right;
+     margin-left:700px;
+     margin-right:200px;
+ }
+
+.informatioon .image {
+    margin-top: 150px;
+    margin-left: 720px;
+    height:80px;
+}
+.informatioon .titulo {
+    margin-left: 60px;
+    font-size: 30px;
+    margin-top: -30px;
+}
+.informatioon .texto-contenido {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 600px;
+}
+ .final{
+     margin-top:300px;
+     background-color:#FA8072;
+     height:30%;
+     color:white;
+     text-align:center;
+ }
+.search{
+    width: 45px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+}

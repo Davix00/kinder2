@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registro de alumnos</title>
+    <link href="aspirantes.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="container">
+        <h1 class="titulo">Formulario de <span>registro</span></h1>          
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Enter nombre completo" required />
+            </div>
+
+            <div class="input-box">
+                <label>Email </label>
+                <input type="email" placeholder="Enter email " required />
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Número de teléfono</label>
+                    <input type="text" placeholder="Inserte número de teléfono" required />
+                </div>
+                <div class="input-box">
+                    <label>Fecha de nacimiento</label>
+                    <input type="date" placeholder="Inserte fecha de nacimiento" required />
+                </div>
+            </div>
+            <div ">
+                <div class="gender-box">
+                    <h3>Sexo</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" checked />
+                            <label for="check-male">Femenino</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender" />
+                            <label for="check-female">Masculino</label>
+                        </div>
+                    </div>
+                </div>
+            <div class="input-box">
+                <br>
+                <label>Edad</label>
+                <input  type="number" min="2" max="7"  id="edad" name="edad" placeholder="3" required>
+            </div>            
+            </div>
+
+            <div class="input-box address">
+                <label>Dirección de correo</label>
+                <input type="email" placeholder="Inserte dirección de correo" required />
+                <br>
+                <br>
+                <label>CURP</label>
+                <div class="column">
+                    <input type="text" placeholder="Inserte CURP" required />
+                </div>
+                <br>
+                <label>Inserte acta de nacimiento</label>
+                    <input type="file" accept=".pdf"  placeholder="Archivo" required />                             
+            </div>
+            <button>Enviar datos</button>
+            <a href="index.html"><button class="inicio">Regresar al inicio</button></a>
+        </form>
+    </section>
+</body>
+</html>
+
+
