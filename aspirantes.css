@@ -119,24 +119,24 @@ body {
     font-size: 1rem;
 }
 
-.form button {
+ button {
     height: 55px;
     width: 100%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
+    color: rgb(0, 0, 0);
     margin-top: 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s ease;
     background: #DDA0DD;
+    
 }
 
-    .form button:hover {
-        background: #DA70D6;
-        font-weight: bolder;
-    }
+button:hover {
+    background: #DA70D6;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
 
 .form .inicio{
     background-color: #DDA0DD;

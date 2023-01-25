@@ -1,5 +1,9 @@
-﻿* {
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
   box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -9,8 +13,7 @@ body {
   background-attachment: fixed;
   color: #fff;
   line-height: 1.6;
-  font-family: "Quicksand", sans-serif;
-  padding: 0 1.5em;
+  padding: 20px;
 }
 
 .container {
@@ -38,8 +41,6 @@ ul {
   padding: 1em;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .contact-form {
@@ -92,8 +93,28 @@ ul {
   border-radius: 10px;
 }
 
+.inicio{
+    background: #DDA0DD;
+    border: 0;
+    text-decoration: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.inicio:hover{
+  background: #DA70D6;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
 .contact-form form button:hover,
-.contact-form form button:focus {
+.contact-form form button:focus{
   background: #DA70D6;
   transition: background-color 1s ease-out;
   outline: 0;

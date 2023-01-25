@@ -1,5 +1,6 @@
 *{
     font-family: 'poppins' ,sans-serif;
+    text-decoration: none;
 }
 body{
 
@@ -21,7 +22,7 @@ body{
     font-weight: bolder;
     cursor:pointer;
     transition:all 0.3s ease 0s;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 80%;
     height: 40%;
 }
@@ -29,8 +30,8 @@ body{
 .btn button:hover{
     font-weight:bolder;
     transform:scale(1.1);
-    color:rgb(155, 62, 121);    
  }
+
  
 .box{
     display: flex;
@@ -62,7 +63,7 @@ header{
     padding: 10px 0 10px 0;
 }
 
-.input-field .input{
+.input{
     height: 45px;
     width: 87%;
     border: none;
@@ -72,6 +73,7 @@ header{
     padding: 0 0 0 45px;
     background: rgba(0, 0, 0, 0.122);
     outline: none;
+    
 }
 i{
     position: relative;
@@ -79,9 +81,7 @@ i{
     left: 17px;
     color: rgb(155, 62, 121);
 }
-::-webkit-input-placeholder{
-    color: #fff;
-}
+
 .submit{
     border: none;
     border-radius: 30px;
